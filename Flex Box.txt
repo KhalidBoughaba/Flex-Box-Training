@@ -1,0 +1,11 @@
+For Parent
+  - display: flex => To Start Flexible Box
+
+  - flex-direction: row => Default Value
+    flex-direction: row-reverse; => Converting the "Flex Box" from English to Arabic (ltr => rtl)
+
+  -flex-direction: column; => Default Value "Flex Box" column (vertical)  
+   flex-direction: column-reverse; => "Flex Box" column (vertical) from "a to z" TO "z to a"
+
+  - flex-wrap: nowrap => Default Value
+  - flex-flow: [Flex-Direction] + [Flex-Wrap]

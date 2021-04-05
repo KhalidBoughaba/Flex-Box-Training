@@ -1,0 +1,15 @@
+.flex {
+  padding: 20px;
+  width: 600px;
+  background-color: #ddd;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex div {
+  color: white;
+  width: calc(100% / 5);
+  text-align: center;
+  padding: 20px;
+}
