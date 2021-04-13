@@ -9,11 +9,14 @@
         flex-direction: column-reverse; => "Flex Box" column (vertical) from "a to z" TO "z to a"
 
 
-        - flex-wrap: nowrap        => Default Value
-        - flex-wrap: wrap          => if you have new item in the FLEX BOX, and You don't want it in the FLEX BOX. Use this function : flex-wrap: wrap
+        - flex-wrap: nowrap          => Default Value
+        
+        - flex-wrap: wrap            => if you have new item in the FLEX BOX, and You don't want it in the FLEX BOX. Use this function : flex-wrap: wrap
+
+        - flex-wrap: wrap-reverse    => Specifies that the flexible items will wrap, if necessary, in reverse order	
 
 
-        - flex-flow: [Flex-Direction] + [Flex-Wrap]  //(Abbreviation => EX flex-flow: row wrap)
+        - flex-flow: [Flex-Direction] + [Flex-Wrap]  //(Shorthand => EX flex-flow: row wrap)
 ]
 
 [
@@ -37,12 +40,11 @@
 ]
 
 [
-        - align-items: stretch        => Default Value. Items are stretched to fit the container
-        - align-items: flex-start     => Items are positioned at the beginning of the container
-        - align-items: flex-end       => Items are positioned at the end of the container
-        - align-items: center         => Items are positioned at the center of the container	
+        - align-items: stretch        => Default Value. Items are stretched to fit the container.
+        - align-items: flex-start     => Items align to the top of the container.
+        - align-items: flex-end       => Items align to the bottom of the container.
+        - align-items: center         => Items align at the vertical center of the container.	
 
-]
 [
         - align-content: stretch      => Default Value
         - align-content: flex-start   => Lines are packed toward the start of the flex container	
@@ -60,6 +62,28 @@
     - flex-shrink: 1     => Default Value.  A number specifying how much the item will shrink relative to the rest of the flexible items. Default value is 1	
 
     - order: 0           => Default Value.  The order property specifies the order of a flexible item relative to the rest of the flexible items inside the same container.
+
+]
+
+[ Flex Box Child -  (#51 Vd)
+
+      - flex-basis: auto (100px) => Default Value. The flex-basis property specifies the initial length of a flexible item.
+            Note: If the element is not a flexible item, the flex-basis property has no effect.
+
+      - {Flex Shorthand} - flex: [Flex Grow] [Flex Shrink] [Flex Basis] 0 1 Auto
+]
+
+[
+      - display: inline-flex; => Displays an element as an inline-level flex container
+]
+
+[  Flex Box Child (#52 Vd)
+
+          - align-self: auto          => Default Value
+          - align-self: flex-star     => The element is positioned at the beginning of the container	
+          - align-self: flex-end      => The element is positioned at the end of the container
+          - align-self: center        => The element is positioned at the center of the container	
+          - align-self: stretch	      => The element is positioned to fit the container	
 
 
 ]
